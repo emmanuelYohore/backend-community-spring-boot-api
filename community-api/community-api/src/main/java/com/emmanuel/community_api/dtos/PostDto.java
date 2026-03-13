@@ -1,0 +1,10 @@
+package com.emmanuel.community_api.dtos;
+
+import lombok.Data;
+
+@Data
+public class PostDto {
+    private String id;
+    private String title;
+    private String description;
+}
